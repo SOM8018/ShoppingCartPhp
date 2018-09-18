@@ -109,7 +109,12 @@
                 <div class="panel panel-info">
                     <div class="panel-heading">Products</div>
                     <div class="panel-body">
-                        <div class="col-md-4">
+
+                        <div id="get_products">
+                            <!-- get brand call to action.php-->
+                        </div>
+
+                        <!-- <div class="col-md-4">
                             <div class="panel panel-info">
                                 <div class="panel-heading">
                                     Samsung
@@ -122,7 +127,7 @@
                                     <button style="float:right" class="btn btn-success btn-xs">Add To Cart</button>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="panel-footer">
                     @CopyRight <b>SoumyaCart.com</b>
