@@ -1,7 +1,7 @@
 # ShoppingCartPhp
-This Web Application developed using php,ajax,jquery.Custom Lay Architecture
+> This Web Application developed using php,ajax,jquery.Custom Lay Architecture
 # How to start project
-start apache and mysql on xampp server check mysql database name and style="color:orange;">username</span>  and password
+> start apache and mysql on xampp server check mysql database name and `username` and `password`
 here in "db.php"
 ```json
 $servername="localhost";
