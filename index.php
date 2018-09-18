@@ -25,11 +25,34 @@
             <ul class="nav navbar-nav">
                 <li><a href="#"><i class="fas fa-home"></i> Home</a></li>
                 <li><a href="#"><i class="fab fa-product-hunt"></i> Product</a></li>
-                <li style="width:300px;left:10px;top:10px;"><input type="text" class="form-control" id="search"></li>
-                <li style="width:300px;left:20px;top:10px;"><input type="submit" class="btn btn-success" id="search_btn"></li>
+                <li style="width:300px;left:10px;top:10px;"><input type="text" placeholder="Bag,Mouse....etcs" class="form-control" id="search"></li>
+                <li style="width:80px;left:20px;top:10px;"><input type="submit" class="btn btn-success" id="search_btn"></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fas fa-shopping-cart"></i> Cart <span class="badge">0</span></a>
+                    <div  style="width:400px" class="dropdown-menu">
+                        <div class="panel panel-success">
+                            <div class="panel-heading">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                    Sl.No.
+                                    </div>
+                                    <div class="col-md-3">
+                                    Product Image
+                                    </div>
+                                    <div class="col-md-3">
+                                    Product Price
+                                    </div>
+                                    <div class="col-md-3">
+                                    Rs. 
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="panel-body"></div>
+                            <div class="panel-footer"></div>
+                        </div>
+                    </div>
+                </li>
                 <li><a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="glyphicon glyphicon-user"></i> SignIn</a>
                     <ul class="dropdown-menu">
                         <div style="width:300px;">
@@ -59,22 +82,28 @@
         <div class="row">
             <div class="col-md-1"></div>
             <div class="col-md-2">
-                <div class="nav nav-pills nav-stacked">
+                <div id="get_category">
+                    <!-- get category call to action.php -->
+                </div>
+                <!-- <div class="nav nav-pills nav-stacked">
                     <li class="active"><a href="#"><h4>Categories</h4></a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
-                </div>
-                <div class="nav nav-pills nav-stacked">
+                </div> -->
+                <div id="get_brand">
+                    <!-- get brand call to action.php-->
+                    </div>
+                <!-- <div class="nav nav-pills nav-stacked">
                     <li class="active"><a href="#"><h4>Brand</h4></a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
                     <li><a href="#">Categories</a></li>
-                </div>
+                </div> -->
             </div>
             <div class="col-md-8">
                 <div class="panel panel-info">
@@ -86,11 +115,11 @@
                                     Samsung
                                 </div>
                                 <div class="panel-body">
-                                    <img src="#" alt="gege">
+                                    <img src="#" alt="alt">
                                 </div>
                                 <div class="panel-footer">
                                     Rs. 100.00
-                                    <button style="float:right"class="btn btn-success btn-xs">Add To Cart</button>
+                                    <button style="float:right" class="btn btn-success btn-xs">Add To Cart</button>
                                 </div>
                             </div>
                         </div>
@@ -108,6 +137,6 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
-        <script src="./js/main.js"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
